@@ -1,5 +1,12 @@
-
+h1{
+    color:black;
+    background-color: gray;
+}
 
 h2, h3{
     color: red;
+}
+
+ul{
+    box-shadow: red;
 }
