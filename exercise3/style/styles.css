@@ -1,0 +1,23 @@
+*{
+    padding-top: 0.5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border: red solid 1px;
+}
+
+h1, h2, h3, label{
+    font-weight: bold;
+    text-align: left;
+}
+
+#dawg{
+    border-radius: 25px;
+    border: 2px black;
+    background-color: palegoldenrod;
+    text-align: left;
+    border: black solid 2px;
+}
+
+#dawg input{
+    padding-left: 1%;
+}

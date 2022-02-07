@@ -5,9 +5,45 @@
     </head>
     <body>
         <div id="dawg">
+            <h1>Registration form</h1>
+            <h2><u>Personal information</u></h2>
             <form action="/action_page.php" target="_blank">
                 <label for="fname">First name:</label>
                 <input type="text" id="fname" name="fname">
+                <br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname">
+                <br>
+                <label for="email">E-mail:</label>
+                <input type="text" id="email" name="email">
+                <br>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+                <br>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+                <br>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob">
+                <br>
+                <h2><u>Study information</u></h2>
+                <label for="programme">Programme</label>
+                <select id="programme" name="programme">
+                    <option value="ml">Machine Learning</option>
+                </select>
+                <h3>Course selections spring 2022</h3>
+                <input type="checkbox" id="industrial" name="courses" value="Industrial Project">
+                <label for="industrial">Industrial Project</label>
+                <br>
+                <input type="checkbox" id="webprog" name="courses" value="Web Programming">
+                <label for="webprog">Web Programming</label>
+                <br>
+                <input type="checkbox" id="iot" name="courses" value="IOT">
+                <label for="iot">IOT</label>
+                <h2><u>Other</u></h2>
+                <input type="text" id="other" name="other">
+                <br>
+                <input type="submit" value="Submit">
             </form>
 
         </div>
