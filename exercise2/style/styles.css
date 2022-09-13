@@ -23,7 +23,7 @@ td, th{
     border-bottom: 1px solid gray;
 }
 
-#uloste li{
+#activities li{
     margin-top: 8px;
     background-color: rosybrown;
 }
@@ -58,4 +58,9 @@ a:hover{
     content: "";
     clear: both;
     display: table;
+}
+
+.icon {
+    width: 17px;
+    height: 17px;
 }
